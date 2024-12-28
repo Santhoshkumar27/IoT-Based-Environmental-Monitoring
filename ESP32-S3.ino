@@ -6,15 +6,15 @@
 #include <SinricProSwitch.h>
 
 // ====================== Configuration ======================
-const char* ssid = "Santhosh-4G";
-const char* password = "santhosh27";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
-const char* mqttServer = "192.168.29.65";
+const char* mqttServer = "IP Address";
 const int mqttPort = 1883;
 
-const char* appKey = "902dc26f-3304-4055-93d7-0df6855f352b";
-const char* appSecret = "c88fd465-9130-4c37-a9c3-953cdd3e950c-de4761fc-29ba-45f8-9b4f-5eefb97cce07";
-const char* deviceID = "676f9eda716c0bcb08a68149";
+const char* appKey = "App Key Sincpro";
+const char* appSecret = "";
+const char* deviceID = "Device ID";
 
 #define TRIG_PIN 13
 #define ECHO_PIN 12
