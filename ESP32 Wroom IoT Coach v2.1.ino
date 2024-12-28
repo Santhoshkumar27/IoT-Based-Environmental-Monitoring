@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL36KbMVmX6"
-#define BLYNK_TEMPLATE_NAME "S3"
-#define BLYNK_AUTH_TOKEN "QZcYZkq18e7P806rYmcF61381GmMu-bl"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #include <Wire.h>
 #include <WiFi.h>
@@ -31,11 +31,11 @@ DHT dht(DHT_PIN, DHTTYPE);
 Adafruit_BMP280 bmp; // Pressure sensor
 
 // WiFi Credentials
-const char* ssid = "Santhosh-4G";
-const char* password = "santhosh27";
+const char* ssid = "";
+const char* password = "";
 
 // MQTT Settings
-const char* mqttServer = "192.168.29.65";
+const char* mqttServer = "";
 const int mqttPort = 1883;
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
